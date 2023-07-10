@@ -1,7 +1,5 @@
 import requests
-import os
 import random
-import string
 import json
 
 emails = json.loads(open('emails.json').read())
